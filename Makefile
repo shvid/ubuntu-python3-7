@@ -5,7 +5,7 @@
 #
 #
 
-IMAGE := ubuntu-python
+IMAGE := ubuntu-python3.7
 VERSION := $(shell git describe --tags --always --dirty)
 REGISTRY := shvid
 
